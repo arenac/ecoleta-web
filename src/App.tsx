@@ -1,9 +1,14 @@
 import React from 'react';
-import './App.css';
+import GlobalStyles from './global/styles'
+
+import Home from './Home'
 
 function App() {
   return (
-    <h1>Ecoleta</h1>
+      <>
+        <GlobalStyles />
+        <Home />
+      </>
   );
 }
 
